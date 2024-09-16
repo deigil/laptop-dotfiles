@@ -1,0 +1,11 @@
+{
+    "window.commandCenter": 1,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "terminal.external.linuxExec": "footclient",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
+    "terminal.integrated.defaultProfile.linux": "fish"
+}

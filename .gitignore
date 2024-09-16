@@ -1,0 +1,43 @@
+# Ignore everything
+*
+
+# Don't ignore these specific items
+!.gitignore
+!README.md
+
+# Don't ignore these specific dirs
+!/Cursor/
+!/Cursor/User/
+!/fish/
+!/fish/conf.d/
+!/hypr/
+!/hypr/scripts/
+!/waybar/
+!/waybar/scripts/
+!/onedrive/
+!/spicetify/
+!/spicetify/CustomApps/
+!/sunshine/
+!/pulse/
+!/pulse/patchbay/
+!/wpaperd/
+
+# Don't ignore specific dir items
+!/wpaperd/config.toml
+!/Cursor/User/settings.json
+!/fish/config.fish
+!/fish/conf.d/*
+!/onedrive/config
+!/hypr/hypr*
+!/hypr/scripts/wallpaper.sh
+!/hypr/scripts/wake.sh
+!/spicetify/config*
+!/spicetify/CustomApps/*
+!/spicetify/CustomApps/marketplace/*
+!/sunshine/apps.json
+!/sunshine/sunshine.conf
+!/waybar/scripts/*
+!/waybar/config
+!/waybar/style.css
+!/pulse/default*
+!/pulse/patchbay/*
