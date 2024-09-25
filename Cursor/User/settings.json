@@ -7,5 +7,6 @@
     },
     "explorer.confirmDelete": false,
     "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
-    "terminal.integrated.defaultProfile.linux": "fish"
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "editor.wordWrap": "on"
 }
