@@ -1,0 +1,19 @@
+#!/usr/bin/expect -f
+
+# Source the configuration file
+source config.tcl
+set vpn_server "vpn.iit.edu"
+
+spawn sudo -S openconnect -u $username $vpn_server --useragent=AnyConnect
+expect "password for *:"
+send "dei5018!\r"
+expect "GROUP: *:"
+send "IIT-VPN-USERS-2FA\r"
+expect "Password:"
+send "$password\r"
+expect "Enter: '1' for Question, '2' for SMS. Enter '0' to abort."
+send "1\r"
+expect "What is the food you least liked as a child? Enter '0' to abort."
+send "$response\r"
+interact
+

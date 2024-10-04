@@ -1,43 +1,46 @@
 # Ignore everything
 *
 
-# Don't ignore these specific items
-!.gitignore
-!README.md
-
 # Don't ignore these specific dirs
 !/Cursor/
 !/Cursor/User/
+!/expect/
 !/fish/
 !/fish/conf.d/
 !/hypr/
 !/hypr/scripts/
-!/waybar/
-!/waybar/scripts/
 !/onedrive/
-!/spicetify/
-!/spicetify/CustomApps/
-!/sunshine/
 !/pulse/
 !/pulse/patchbay/
+!/spicetify/
+!/spicetify/CustomApps/
+!/spicetify/CustomApps/marketplace/
+!/sunshine/
+!/waybar/
+!/waybar/scripts/
 !/wpaperd/
 
+# Don't ignore these specific items
+!.gitignore
+!README.md
+
 # Don't ignore specific dir items
-!/wpaperd/config.toml
 !/Cursor/User/settings.json
+!/expect/iit-vpn.exp
 !/fish/config.fish
 !/fish/conf.d/*
-!/onedrive/config
 !/hypr/hypr*
-!/hypr/scripts/wallpaper.sh
 !/hypr/scripts/wake.sh
-!/spicetify/config*
-!/spicetify/CustomApps/*
-!/spicetify/CustomApps/marketplace/*
-!/sunshine/apps.json
-!/sunshine/sunshine.conf
-!/waybar/scripts/*
-!/waybar/config
-!/waybar/style.css
+!/hypr/scripts/wallpaper.sh
+!/onedrive/config
 !/pulse/default*
 !/pulse/patchbay/*
+!/spicetify/CustomApps/*
+!/spicetify/CustomApps/marketplace/*
+!/spicetify/config*
+!/sunshine/apps.json
+!/sunshine/sunshine.conf
+!/waybar/config
+!/waybar/scripts/*
+!/waybar/style.css
+!/wpaperd/config.toml
